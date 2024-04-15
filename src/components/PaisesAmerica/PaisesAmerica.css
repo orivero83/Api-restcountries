@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  height: 100vh;
+  background-image: url(../img//map.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* btns */
+.App {
+  width: 100%;
+  padding: 15px;
+}
+
+/* Contenedor para los botones */
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.country-btn {
+  width: 9%;
+  height: 4em;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border: 2px white solid;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: rgba(36, 35, 35, 0.7);
+
+  transition: background-color 0.3s ease;
+}
+
+.country-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  transition: all ease-in-out .5s;
+
+}
+
+
+
+
+/* INFO */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.country-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 123, 255, .7);
+  margin-bottom: 20px;
+  font-size: 2em;
+  text-align: center;
+  color: rgb(250, 244, 244);
+}
+
+.country-info h2 {
+  margin-bottom: 10px;
+}
+
+.country-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.country-info li {
+  margin-bottom: 10px;
+}
+
+.country-info li strong {
+  font-weight: bold;
+}
